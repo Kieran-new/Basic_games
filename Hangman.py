@@ -1,12 +1,12 @@
 import random
 from random_word import RandomWords
 
-#word = RandomWords()
+word = RandomWords()
 
-#word = word.get_random_word()
+word = word.get_random_word()
 
 
-guess_words = ['Miami','New','City','Adventure']                            #just previous iteraction words getting to try and understand how to do this
+#guess_words = ['Miami','New','City','Adventure']                            #just previous iteraction words getting to try and understand how to do this
 
 
 
@@ -15,13 +15,13 @@ chances = 5
 
 print("Welcome to Hang man, you have four chances to guess the right word, or....YOU WILL BE HUNG,DANG,DANG,DANG!")
 print("You may only get four chances and can only enter two letters.")
-word = random.choice(guess_words).lower()
+#word = random.choice(guess_words).lower()
 
 print("The word you have to guess is: ")
 for char in word:
     print('_',end ='')
 
-correct = []
+correct = []                #where we are going to appended the users guessed letters to
     
 
 
